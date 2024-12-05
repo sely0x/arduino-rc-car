@@ -104,8 +104,8 @@ void loop() {
         digitalWrite(M_IN4, LOW);  
       } else {
         digitalWrite(EA, HIGH);
-        digitalWrite(M_IN1, fb * mav);
-        digitalWrite(M_IN2, fb * !mav);  
+        digitalWrite(M_IN1, fb * !mav);
+        digitalWrite(M_IN2, fb * mav);  
       
         digitalWrite(EB, HIGH);
         digitalWrite(M_IN3, fb * mbv);
